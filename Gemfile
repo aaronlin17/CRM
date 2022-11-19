@@ -5,13 +5,11 @@ ruby "2.7.1"
 
 # Active admin #
 gem 'activeadmin'
-
-# Plus integrations with:
 gem 'devise'
-gem 'cancancan'
-gem 'draper'
-gem 'pundit'
+gem 'image_processing'
 ################
+
+gem 'sass-rails'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"

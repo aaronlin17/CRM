@@ -10,6 +10,9 @@
   </head>
 
   <body>
+   <%= link_to "all customners",  customers_index_path %>
+    <%= link_to "alphabetized",  customers_alphabetized_path %>
+  <%= link_to "missing email",  customers_missing_email_path %>
     <%= yield %>
   </body>
 </html>

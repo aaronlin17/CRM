@@ -1,6 +1,0 @@
-  <aside>
-    <% if customer.image.present? %>
-      <p><%= image_tag customer.image.variant(resize_to_limit: [285, 285]).processed  %></p>
-    <% end %>
-    <h3><%= link_to customer.full_name, customer %></h3>
-  </aside>
